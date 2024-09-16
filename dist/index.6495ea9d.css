@@ -167,7 +167,7 @@ section {
   display: flex;
 }
 
-.btn-group .btn {
+.btn {
   color: #000;
   background-color: #c2c464;
   border: 2px solid #0000;
@@ -180,7 +180,7 @@ section {
   box-shadow: 0 0 25px #c2c464;
 }
 
-.btn-group .btn:hover {
+.btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #c2c464, 0 0 25px #c2c464;
 }
@@ -196,5 +196,50 @@ section {
   color: #000;
   background-color: #c2c464;
   box-shadow: 0 0 15px #c2c464;
+}
+
+.about {
+  background: #101010;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  display: flex;
+}
+
+.about .about-img img {
+  border-radius: 50%;
+  width: 32vw;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px #c2c464;
+}
+
+.about .about-img img:hover {
+  box-shadow: 0 0 25px #c2c464, 0 0 35px #c2c464, 0 0 50px #c2c464;
+}
+
+.about .about-content h2 {
+  text-align: left;
+  font-size: 7rem;
+}
+
+.about .about-content p {
+  font-size: 1.8rem;
+}
+
+.about .about-content .btn {
+  margin: 3rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c2c464;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #080808;
 }
 /*# sourceMappingURL=index.6495ea9d.css.map */
