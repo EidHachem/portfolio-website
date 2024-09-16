@@ -242,4 +242,69 @@ section {
 ::-webkit-scrollbar-track {
   background-color: #080808;
 }
+
+.heading {
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 7rem;
+}
+
+.services {
+  color: #000;
+  background-color: #080808;
+}
+
+.services-container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 2.5rem;
+  display: grid;
+}
+
+.service-box {
+  cursor: pointer;
+  background-color: #c2c464;
+  border: 5px solid #0000;
+  border-radius: 3rem;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 600px;
+  transition: all .4s ease-in-out;
+  display: flex;
+}
+
+.service-box:hover {
+  color: #c2c464;
+  background: #101010;
+  border: 5px solid #c2c464;
+  transform: scale(1.03);
+}
+
+.service-info {
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 5rem;
+  display: flex;
+}
+
+.service-info h4 {
+  margin: 2rem 0;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.service-info p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.service-info i {
+  font-size: 8rem;
+}
 /*# sourceMappingURL=index.6495ea9d.css.map */
