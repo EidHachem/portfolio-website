@@ -307,4 +307,51 @@ section {
 .service-info i {
   font-size: 8rem;
 }
+
+.projects {
+  background-color: #101010;
+}
+
+.projects-box {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  place-items: center;
+  gap: 5rem 3rem;
+  display: grid;
+}
+
+.project-card {
+  text-align: center;
+  cursor: pointer;
+  background-color: #080808;
+  border: 2px solid #c2c464;
+  border-radius: 3rem;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem 2rem;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 5px #c2c464;
+}
+
+.project-card img {
+  object-fit: cover;
+  border-radius: 2rem;
+  max-width: 300px;
+}
+
+.project-card h3 {
+  font-size: 3rem;
+}
+
+.project-card p {
+  font-size: 1.6rem;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px #c2c464, 0 0 50px #c2c464;
+}
 /*# sourceMappingURL=index.6495ea9d.css.map */

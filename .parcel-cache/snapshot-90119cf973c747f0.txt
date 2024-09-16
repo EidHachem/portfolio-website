@@ -320,7 +320,7 @@
 57/home/codetaster/repos/portfolio/node_modules/timsort/src1726503154323926294 1
 70/home/codetaster/repos/portfolio/node_modules/timsort/build/timsort.js1726502911799999000 0
 59/home/codetaster/repos/portfolio/node_modules/timsort/build1726503154324926289 1
-60/home/codetaster/repos/portfolio/src/assets/styles/main.scss1726519859053521964 0
+60/home/codetaster/repos/portfolio/src/assets/styles/main.scss1726521110438294531 0
 66/home/codetaster/repos/portfolio/node_modules/timsort/package.json1726502911799999000 0
 50/home/codetaster/repos/portfolio/node_modules/.bin1726504894702740864 1
 77/home/codetaster/repos/portfolio/node_modules/weak-lru-cache/rollup.config.js1726502218308000000 0
@@ -2992,7 +2992,7 @@
 107/home/codetaster/repos/portfolio/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed1726503154414925814 1
 103/home/codetaster/repos/portfolio/node_modules/dom-serializer/node_modules/entities/lib/maps/legacy.json1726502944421999000 0
 94/home/codetaster/repos/portfolio/node_modules/css-select/lib/pseudo-selectors/aliases.d.ts.map1726502907872999000 0
-43/home/codetaster/repos/portfolio/.gitignore1726520015962914012 0
+43/home/codetaster/repos/portfolio/.gitignore1726520061401680711 0
 66/home/codetaster/repos/portfolio/node_modules/json5/lib/index.d.ts1726502168471999000 0
 85/home/codetaster/repos/portfolio/node_modules/@swc/helpers/src/_wrap_native_super.mjs1726502192493000000 0
 72/home/codetaster/repos/portfolio/node_modules/csso/lib/replace/String.js1726502939634999000 0
@@ -3804,7 +3804,7 @@
 74/home/codetaster/repos/portfolio/node_modules/mdn-data/css/properties.json1726502933993000000 0
 71/home/codetaster/repos/portfolio/node_modules/@parcel/transformer-image1726503154033927823 1
 90/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/pointer-events.js1726502196642999000 0
-47/home/codetaster/repos/portfolio/src/index.html1726519955232199082 0
+47/home/codetaster/repos/portfolio/src/index.html1726520750480142702 0
 96/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/css-text-orientation.js1726502196642999000 0
 64/home/codetaster/repos/portfolio/node_modules/source-map/LICENSE1726502933844000000 0
 77/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/regions/NO.js1726502196642999000 0
