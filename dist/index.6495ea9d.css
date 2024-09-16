@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 1rem;
+  font-size: 60%;
   overflow-x: hidden;
 }
 
@@ -85,5 +85,116 @@ body {
 
 .gradient-btn:hover {
   transform: scale(1.05);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 15%;
+}
+
+.home {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  display: flex;
+}
+
+.home-content {
+  text-align: right;
+  flex-flow: column;
+  align-items: flex-end;
+  gap: 0;
+  display: flex;
+}
+
+.home-content h1 {
+  margin-top: 1.5rem;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.home-content h3 {
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.home-img img {
+  border-radius: 50%;
+  width: 32vw;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px #c2c464;
+}
+
+.home-img img:hover {
+  box-shadow: 0 0 25px #c2c464, 0 0 35px #c2c464, 0 0 50px #c2c464;
+}
+
+.social-icons a {
+  flex-direction: center;
+  color: #c2c464;
+  background: none;
+  border: 2px solid #c2c464;
+  border-radius: 50%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  margin: 3rem .5rem;
+  padding: 1rem;
+  font-size: 3rem;
+  transition: all .3s ease-in-out;
+  display: inline-flex;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  background-color: #c2c464;
+  transform: scale(1.2)translateY(-5px);
+  box-shadow: 0 0 25px #c2c464;
+}
+
+.btn-group {
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.btn-group .btn {
+  color: #000;
+  background-color: #c2c464;
+  border: 2px solid #0000;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  box-shadow: 0 0 25px #c2c464;
+}
+
+.btn-group .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #c2c464, 0 0 25px #c2c464;
+}
+
+.btn-group a:nth-of-type(2) {
+  color: #c2c464;
+  background-color: #000;
+  border: 2px solid #c2c464;
+  box-shadow: 0 0 25px #0000;
+}
+
+.btn-group a:nth-of-type(2):hover {
+  color: #000;
+  background-color: #c2c464;
+  box-shadow: 0 0 15px #c2c464;
 }
 /*# sourceMappingURL=index.6495ea9d.css.map */

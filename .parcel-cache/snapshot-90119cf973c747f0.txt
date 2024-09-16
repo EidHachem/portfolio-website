@@ -1,4 +1,5 @@
-4599
+4603
+53/home/codetaster/repos/portfolio/dist/me.c5e11214.png1726511196687528495 0
 66/home/codetaster/repos/portfolio/src/assets/styles/_variables.scss1726508757911131420 0
 50/home/codetaster/repos/portfolio/src/assets/styles1726506996316809725 1
 98/home/codetaster/repos/portfolio/node_modules/react-refresh/cjs/react-refresh-babel.development.js1726502866490999000 0
@@ -320,7 +321,7 @@
 57/home/codetaster/repos/portfolio/node_modules/timsort/src1726503154323926294 1
 70/home/codetaster/repos/portfolio/node_modules/timsort/build/timsort.js1726502911799999000 0
 59/home/codetaster/repos/portfolio/node_modules/timsort/build1726503154324926289 1
-60/home/codetaster/repos/portfolio/src/assets/styles/main.scss1726508827583748635 0
+60/home/codetaster/repos/portfolio/src/assets/styles/main.scss1726513536205148718 0
 66/home/codetaster/repos/portfolio/node_modules/timsort/package.json1726502911799999000 0
 50/home/codetaster/repos/portfolio/node_modules/.bin1726504894702740864 1
 77/home/codetaster/repos/portfolio/node_modules/weak-lru-cache/rollup.config.js1726502218308000000 0
@@ -948,6 +949,7 @@
 71/home/codetaster/repos/portfolio/node_modules/@parcel/types/build-ts.js1726502170688999000 0
 59/home/codetaster/repos/portfolio/node_modules/@parcel/types1726503154037927802 1
 91/home/codetaster/repos/portfolio/node_modules/@parcel/reporter-cli/test/CLIReporter.test.js1726502166502000000 0
+54/home/codetaster/repos/portfolio/dist/me.170f01d7.jpeg1726511677614267075 0
 79/home/codetaster/repos/portfolio/node_modules/@swc/helpers/_/_iterable_to_array1726503154402925877 1
 71/home/codetaster/repos/portfolio/node_modules/@parcel/reporter-cli/test1726503154272926563 1
 92/home/codetaster/repos/portfolio/node_modules/@parcel/transformer-js/lib/esmodule-helpers.js1726502177838000000 0
@@ -1705,6 +1707,7 @@
 77/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/regions/TG.js1726502196642999000 0
 77/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/regions/MG.js1726502196642999000 0
 84/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/temporal.js1726502196642999000 0
+50/home/codetaster/repos/portfolio/src/assets/images1726510976531563715 1
 77/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/regions/CA.js1726502196642999000 0
 76/home/codetaster/repos/portfolio/node_modules/@parcel/workers/lib/backend.js1726502170993000000 0
 70/home/codetaster/repos/portfolio/node_modules/nth-check/lib/compile.js1726502930448999000 0
@@ -2135,6 +2138,7 @@
 81/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/webgl.js1726502196642999000 0
 67/home/codetaster/repos/portfolio/node_modules/@parcel/graph/LICENSE1726502173500000000 0
 63/home/codetaster/repos/portfolio/node_modules/nth-check/LICENSE1726502930448999000 0
+58/home/codetaster/repos/portfolio/src/assets/images/me.jpeg1726511047406230000 0
 75/home/codetaster/repos/portfolio/node_modules/@swc/helpers/esm/_inherits.js1726502192493000000 0
 60/home/codetaster/repos/portfolio/node_modules/semver/LICENSE1726502169924999000 0
 64/home/codetaster/repos/portfolio/node_modules/color-name/LICENSE1726502187276000000 0
@@ -2912,7 +2916,7 @@
 78/home/codetaster/repos/portfolio/node_modules/cosmiconfig/dist/cacheWrapper.js1726502917430000000 0
 67/home/codetaster/repos/portfolio/node_modules/chalk/source/index.js1726502166220000000 0
 91/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/resource-timing.js1726502196642999000 0
-63/home/codetaster/repos/portfolio/src/assets/styles/_mixins.scss1726507833437210535 0
+63/home/codetaster/repos/portfolio/src/assets/styles/_mixins.scss1726511741434966977 0
 71/home/codetaster/repos/portfolio/node_modules/weak-lru-cache/index.d.ts1726502218308000000 0
 53/home/codetaster/repos/portfolio/node_modules/js-yaml1726503153885928603 1
 79/home/codetaster/repos/portfolio/node_modules/semver/functions/compare-loose.js1726502169924999000 0
@@ -3804,7 +3808,7 @@
 74/home/codetaster/repos/portfolio/node_modules/mdn-data/css/properties.json1726502933993000000 0
 71/home/codetaster/repos/portfolio/node_modules/@parcel/transformer-image1726503154033927823 1
 90/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/pointer-events.js1726502196642999000 0
-47/home/codetaster/repos/portfolio/src/index.html1726507756123635300 0
+47/home/codetaster/repos/portfolio/src/index.html1726512376061982826 0
 96/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/features/css-text-orientation.js1726502196642999000 0
 64/home/codetaster/repos/portfolio/node_modules/source-map/LICENSE1726502933844000000 0
 77/home/codetaster/repos/portfolio/node_modules/caniuse-lite/data/regions/NO.js1726502196642999000 0
