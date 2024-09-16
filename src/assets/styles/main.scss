@@ -1,0 +1,89 @@
+@import "mixins";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  @include font-size(16);
+}
+
+body {
+  background: $bg-color;
+  color: $text-color;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 4rem 15%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  @include flex(row, space-between, center);
+  z-index: 10;
+}
+
+#menu-icon {
+  font-size: 3.5rem;
+  color: $main-color;
+  display: none;
+}
+
+.logo {
+  font-size: 3rem;
+  color: $text-color;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  span {
+    background: linear-gradient(270deg, #c2c464 10%, #df8908 100%);
+
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar a {
+  font-size: 1.8rem;
+  color: $text-color;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+  color: $main-color;
+  border-bottom: 3px solid $main-color;
+}
+
+.gradient-btn {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  background: linear-gradient(270deg, #df8908 10%, #c2c464 100%);
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: $text-color;
+  border: none;
+  text-wrap: nowrap;
+}
+
+.gradient-btn:hover {
+  transform: scale(1.05);
+}
