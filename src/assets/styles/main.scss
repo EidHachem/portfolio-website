@@ -327,3 +327,88 @@ section {
   box-shadow: 0 0 25px $main-color, 0 0 50px $main-color;
   transform: scale(1.02);
 }
+
+.contact {
+  background-color: $bg-color;
+
+  h2 {
+    margin-bottom: 3rem;
+    color: $text-color;
+  }
+
+  form {
+    @include flex(row, center, center, 3rem);
+    margin: 5rem 0;
+    text-align: center;
+
+    .input-box input,
+    textarea {
+      width: 100%;
+      padding: 2.5rem;
+      font-size: 1.8rem;
+      color: $text-color;
+      background-color: $bg-color;
+      border-radius: 2rem;
+      border: 2px solid $main-color;
+      margin: 1.5rem 0;
+      resize: none;
+    }
+  }
+}
+
+.footer {
+  background-color: $secondary-bg-color;
+  padding: 50px 0;
+
+  ul {
+    text-align: center;
+    font-size: 1.8rem;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+
+      a {
+        color: $text-color;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease-in-out;
+      }
+      a:hover {
+        border-bottom: 3px solid $main-color;
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+}
+
+.footer .social-icons {
+  text-align: center;
+}
+
+@media (max-width: 85px) {
+  #menu-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    padding: 1rem 3rem;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 2rem;
+    border-left: 2px solid $main-color;
+    border-bottom: 2px solid $main-color;
+
+    a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+      color: $text-color;
+    }
+  }
+}
