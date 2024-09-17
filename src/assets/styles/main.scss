@@ -204,6 +204,12 @@ section {
   .about-content h2 {
     font-size: 7rem;
     text-align: left;
+
+    span {
+      background: linear-gradient(270deg, #c2c464 10%, #df8908 100%);
+      background-clip: text;
+      color: transparent;
+    }
   }
 
   .about-content p {
@@ -236,6 +242,10 @@ section {
 .services {
   background-color: $bg-color;
   color: #000;
+
+  h2 {
+    color: $text-color;
+  }
 }
 
 .services-container {
@@ -286,6 +296,7 @@ section {
 
 .projects {
   background-color: $secondary-bg-color;
+  padding: 1.5rem;
 }
 
 .projects-box {
@@ -389,7 +400,7 @@ section {
   text-align: center;
 }
 
-@media (max-width: 85px) {
+@media (max-width: 1285px) {
   #menu-icon {
     display: block;
   }
@@ -403,6 +414,7 @@ section {
     border-bottom-left-radius: 2rem;
     border-left: 2px solid $main-color;
     border-bottom: 2px solid $main-color;
+    display: none;
 
     a {
       display: block;
@@ -410,5 +422,88 @@ section {
       margin: 3rem 0;
       color: $text-color;
     }
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .gradient-btn {
+    display: none;
+  }
+
+  .home {
+    flex-direction: column-reverse;
+    margin: 5rem 0;
+    gap: 5rem;
+  }
+
+  .home-content {
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+  }
+
+  .home-img img {
+    width: 56vw;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    .about-content h2 {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 5rem;
+    }
+
+    .about-img img {
+      width: 52vw;
+    }
+  }
+
+  .services {
+    padding: 4rem;
+  }
+
+  .projects {
+    padding: 4rem;
+  }
+
+  .projects-box {
+    display: block;
+  }
+
+  .project-card {
+    margin: 2rem 0;
+    padding: 2rem;
+
+    img {
+      max-width: 250px;
+    }
+  }
+
+  .contact {
+    padding: 4rem;
+  }
+
+  .contact form {
+    flex-direction: column;
+  }
+
+  .footer ul {
+    font-size: 1.5rem;
+  }
+
+  .heading {
+    font-size: 5rem;
   }
 }
