@@ -1,5 +1,7 @@
-let arr = [] as number[]
+let menuIcon = document.querySelector("#menu-icon") as HTMLButtonElement
+let navbar = document.querySelector(".navbar") as HTMLDivElement
 
-arr = [1, 2]
-
-console.log(arr)
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("bx-x")
+  navbar.classList.toggle("active")
+}
